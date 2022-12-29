@@ -25,7 +25,11 @@
             "description": "BOT TOKEN.",
             "value": ""
         },
-      
+        "SUDO": {
+            "description": "chat id of channel.",
+            "value": ""
+        }
+    },
     "buildpacks": [
         {
             "url": "heroku/python"
