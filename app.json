@@ -21,6 +21,14 @@
             "description": "owner user id",
             "value": ""
         },
+        "CHID": {
+            "description": "BOT TOKEN.",
+            "value": ""
+        },
+         "FSUB": {
+            "description": "BOT TOKEN.",
+            "value": ""
+        },
         "BOT_TOKEN": {
             "description": "BOT TOKEN.",
             "value": ""
