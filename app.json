@@ -1,52 +1,38 @@
 {
-    "name": "Auto Approove Bot",
-    "description": "Auto approove telegram group/channel join requests bot.",
+    "name": "Auto-Approve-Bot",
+    "description": "",
+    "logo": "",
     "keywords": [
-        "Bot",
-        "Telegram ",
-        "Pyrogram "
+        "AutoApproveRequests"
     ],
-    "website": "https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA",
-    "repository": "https://github.com/RishBroProMax/Auto-Approve-Bot",
-    "success_url": "https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA",
-    
+    "repository": "https://github.com/RishBropromax/Auto-Approve-Bot",
+    "website": "",
+    "success_url": "https://t.me/python",
     "env": {
-    "API_ID": {
-      "description": "Enter your API_ID, get it from my.telegram.org/apps",
-      "value": ""
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "AUTH": {
+            "description": "owner user id",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "BOT TOKEN.",
+            "value": ""
+        },
+        "CHAT": {
+            "description": "chat id of channel.",
+            "value": ""
+        }
     },
-    "API_HASH": {
-      "description": "Enter your API_HASH, get it from my.telegram.org/apps",
-      "value": ""
-    },
-    "BOT_TOKEN": {
-      "description": "Enter your Bot token, get it from @BotFather",
-      "value": ""
-    },
-    "CHID": {
-      "description": "Enter your Force Subscribe channel ID",
-      "value": ""
-    },,
-    "FSUB": {
-      "description": "Enter your Force Subscribe channel Username without @",
-      "value": ""
-    },,
-    "SUDO": {
-      "description": "Enter Bot Owners IDS",
-      "value": ""
-    }
-        
-  },
-  
-   "buildpacks": [
+    "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
-        }
-    }
+    ]
 }
