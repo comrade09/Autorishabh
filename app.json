@@ -25,10 +25,17 @@
             "description": "BOT TOKEN.",
             "value": ""
         },
-        "CHAT": {
-            "description": "chat id of channel.",
-            "value": ""
-        }
+  "CHID": {
+      "description": "Enter your Force Subscribe channel ID",
+      "value": ""
+    },
+    "FSUB": {
+      "description": "Enter your Force Subscribe channel Username without @",
+      "value": ""
+    },
+    "SUDO": {
+      "description": "Enter Bot Owners IDS",
+      "value": ""
     },
     "buildpacks": [
         {
