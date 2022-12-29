@@ -38,15 +38,15 @@
         
   },
   
-    "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  },
-    "buildpacks": [
+   "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ]
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
 }
