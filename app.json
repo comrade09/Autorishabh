@@ -12,27 +12,27 @@
     "env": {
     "API_ID": {
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
-      "required": true
+      "value": ""
     },
     "API_HASH": {
       "description": "Enter your API_HASH, get it from my.telegram.org/apps",
-      "required": true
+      "value": ""
     },
     "BOT_TOKEN": {
       "description": "Enter your Bot token, get it from @BotFather",
-      "required": true
+      "value": ""
     },
     "CHID": {
       "description": "Enter your Force Subscribe channel ID",
-      "required": true
+      "value": ""
     },,
     "FSUB": {
       "description": "Enter your Force Subscribe channel Username without @",
-      "required": true
+      "value": ""
     },,
     "SUDO": {
       "description": "Enter Bot Owners IDS",
-      "required": true
+      "value": ""
     }
         
   },
